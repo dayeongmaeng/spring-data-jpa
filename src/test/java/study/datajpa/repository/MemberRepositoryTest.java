@@ -18,7 +18,6 @@ class MemberRepositoryTest {
     @Autowired
     MemberRepository memberRepository;
 
-
     @Test
     void testMember() {
         Member member = new Member("memberA");
